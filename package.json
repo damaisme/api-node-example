@@ -11,10 +11,6 @@
   },
   "scripts": {
     "start": "node .",
-    "test": "jest test/**.test.js --verbose --silent",
-    "test:verbose": "jest test/**.test.js --verbose",
-    "test:summary": "jest test/**.test.js --silent",
-    "coverage": "jest test/**.test.js --coverage --silent",
     "lint": "npx eslint .",
     "postinstall": "husky install",
     "another-task": "test"
